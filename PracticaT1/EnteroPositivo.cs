@@ -6,7 +6,7 @@ namespace PracticaT1
 {
     public class EnteroPositivo
     {
-        public int Entero_Positivo(int[] numeros)
+        public int Entero_Positivo(int[] number)
         {
             return 0;
 
@@ -14,7 +14,7 @@ namespace PracticaT1
 
 
     }
-    public  string convertroman(int number)  {
+    public  string Convertir_Romano (int number)  {
         int l = number / 10;
         StringBuilder sb = new StringBuilder();
         for (int m = 0; m <= l; m++)
